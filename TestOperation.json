@@ -1,0 +1,20 @@
+{
+  "name": "operation-1234567890",
+  "zone": "us-central1-a",
+  "status": "PENDING",
+  "targetLink": "https://www.googleapis.com/compute/v1/projects/your-project-id/zones/us-central1-a/operations/operation-1234567890",
+  "targetId": "1234567890",
+  "operationType": "insert",
+  "insertTime": "2023-03-08T18:30:00.000Z",
+  "startTime": "2023-03-08T18:30:00.000Z",
+  "endTime": "2023-03-08T18:35:00.000Z",
+  "progress": 50,
+  "error": {
+    "errors": [
+      {
+        "code": "INVALID_ARGUMENT",
+        "message": "The instance's machine type is not available in the specified zone."
+      }
+    ]
+  }
+}
